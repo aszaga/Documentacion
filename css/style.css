@@ -4,8 +4,8 @@
 }
 
 body {
-	background: #E9ECF4;
-	color: #000;
+	background: #696b70;
+	color: rgb(12, 12, 12);
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -15,8 +15,8 @@ body {
 	margin: 20px auto;
 	display: grid;
 	grid-gap: 20px;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, auto);
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(3, auto);
 
 	grid-template-areas: "header header header"
 						 "main-section main-section sidebar"
@@ -46,8 +46,8 @@ body {
 }
 
 .container .sidebar {
-	grid-column: 3 / 4;
-	background: #fAA43D;
+	grid-column: 2 / 4;
+	background: #180c41;
 	color: ghostwhite;
 	text-align: center;
 	display: flex;
@@ -60,9 +60,10 @@ body {
 
 
 
+
 .container .footer {
 	background: #12203E;
-	color: #fff;
+	color: rgb(175, 152, 152);
 	grid-area: footer;
 }
 
